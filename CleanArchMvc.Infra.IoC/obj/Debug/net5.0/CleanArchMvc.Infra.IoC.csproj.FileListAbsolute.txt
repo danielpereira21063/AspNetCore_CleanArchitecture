@@ -1,6 +1,5 @@
 C:\Users\Daniel\Documents\Estudos\CSharp\curso_cleanArch\CleanArchMvc\CleanArchMvc.Infra.IoC\bin\Debug\net5.0\CleanArchMvc.Infra.IoC.deps.json
 C:\Users\Daniel\Documents\Estudos\CSharp\curso_cleanArch\CleanArchMvc\CleanArchMvc.Infra.IoC\bin\Debug\net5.0\CleanArchMvc.Infra.IoC.dll
-C:\Users\Daniel\Documents\Estudos\CSharp\curso_cleanArch\CleanArchMvc\CleanArchMvc.Infra.IoC\bin\Debug\net5.0\ref\CleanArchMvc.Infra.IoC.dll
 C:\Users\Daniel\Documents\Estudos\CSharp\curso_cleanArch\CleanArchMvc\CleanArchMvc.Infra.IoC\bin\Debug\net5.0\CleanArchMvc.Infra.IoC.pdb
 C:\Users\Daniel\Documents\Estudos\CSharp\curso_cleanArch\CleanArchMvc\CleanArchMvc.Infra.IoC\bin\Debug\net5.0\CleanArchMvc.Application.dll
 C:\Users\Daniel\Documents\Estudos\CSharp\curso_cleanArch\CleanArchMvc\CleanArchMvc.Infra.IoC\bin\Debug\net5.0\CleanArchMvc.Domain.dll
@@ -17,3 +16,4 @@ C:\Users\Daniel\Documents\Estudos\CSharp\curso_cleanArch\CleanArchMvc\CleanArchM
 C:\Users\Daniel\Documents\Estudos\CSharp\curso_cleanArch\CleanArchMvc\CleanArchMvc.Infra.IoC\obj\Debug\net5.0\CleanArchMvc.Infra.IoC.dll
 C:\Users\Daniel\Documents\Estudos\CSharp\curso_cleanArch\CleanArchMvc\CleanArchMvc.Infra.IoC\obj\Debug\net5.0\ref\CleanArchMvc.Infra.IoC.dll
 C:\Users\Daniel\Documents\Estudos\CSharp\curso_cleanArch\CleanArchMvc\CleanArchMvc.Infra.IoC\obj\Debug\net5.0\CleanArchMvc.Infra.IoC.pdb
+C:\Users\Daniel\Documents\Estudos\CSharp\curso_cleanArch\CleanArchMvc\CleanArchMvc.Infra.IoC\obj\Debug\net5.0\refint\CleanArchMvc.Infra.IoC.dll
