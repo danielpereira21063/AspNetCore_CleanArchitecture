@@ -9,7 +9,7 @@ namespace CleanArchMvc.Domain.Entities
         }
 
         public string Name { get; private set; }
-        public string Description { private get; set; }
+        public string Description { get; private set; }
         public decimal Price { get; private set; }
         public int Stock { get; private set; }
         public string Image { get; private set; }
@@ -42,7 +42,7 @@ namespace CleanArchMvc.Domain.Entities
             DomainExceptionValidation.When(description.Length < 5, "Invalid description. To short, minimum 5 characteres.");
             DomainExceptionValidation.When(price < 0, "Invalid price value.");
             DomainExceptionValidation.When(stock < 0, "Invalid stock value.");
-            DomainExceptionValidation.When(image.Length > 250, "Invalid image name, too long, maximun 250 characteres");
+            DomainExceptionValidation.When(image?.Length > 250, "Invalid image name, too long, maximun 250 characteres");
 
             Name = name;
             Description = description;

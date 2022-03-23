@@ -14,6 +14,6 @@ C:\Users\Daniel\Documents\Estudos\CSharp\curso_cleanArch\CleanArchMvc\CleanArchM
 C:\Users\Daniel\Documents\Estudos\CSharp\curso_cleanArch\CleanArchMvc\CleanArchMvc.Infra.IoC\obj\Debug\net5.0\CleanArchMvc.Infra.IoC.csproj.CoreCompileInputs.cache
 C:\Users\Daniel\Documents\Estudos\CSharp\curso_cleanArch\CleanArchMvc\CleanArchMvc.Infra.IoC\obj\Debug\net5.0\CleanArchMvc.Infra.IoC.csproj.CopyComplete
 C:\Users\Daniel\Documents\Estudos\CSharp\curso_cleanArch\CleanArchMvc\CleanArchMvc.Infra.IoC\obj\Debug\net5.0\CleanArchMvc.Infra.IoC.dll
-C:\Users\Daniel\Documents\Estudos\CSharp\curso_cleanArch\CleanArchMvc\CleanArchMvc.Infra.IoC\obj\Debug\net5.0\ref\CleanArchMvc.Infra.IoC.dll
-C:\Users\Daniel\Documents\Estudos\CSharp\curso_cleanArch\CleanArchMvc\CleanArchMvc.Infra.IoC\obj\Debug\net5.0\CleanArchMvc.Infra.IoC.pdb
 C:\Users\Daniel\Documents\Estudos\CSharp\curso_cleanArch\CleanArchMvc\CleanArchMvc.Infra.IoC\obj\Debug\net5.0\refint\CleanArchMvc.Infra.IoC.dll
+C:\Users\Daniel\Documents\Estudos\CSharp\curso_cleanArch\CleanArchMvc\CleanArchMvc.Infra.IoC\obj\Debug\net5.0\CleanArchMvc.Infra.IoC.pdb
+C:\Users\Daniel\Documents\Estudos\CSharp\curso_cleanArch\CleanArchMvc\CleanArchMvc.Infra.IoC\obj\Debug\net5.0\ref\CleanArchMvc.Infra.IoC.dll

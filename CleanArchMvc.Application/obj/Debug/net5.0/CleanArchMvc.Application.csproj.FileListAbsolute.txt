@@ -10,6 +10,6 @@ C:\Users\Daniel\Documents\Estudos\CSharp\curso_cleanArch\CleanArchMvc\CleanArchM
 C:\Users\Daniel\Documents\Estudos\CSharp\curso_cleanArch\CleanArchMvc\CleanArchMvc.Application\obj\Debug\net5.0\CleanArchMvc.Application.csproj.CoreCompileInputs.cache
 C:\Users\Daniel\Documents\Estudos\CSharp\curso_cleanArch\CleanArchMvc\CleanArchMvc.Application\obj\Debug\net5.0\CleanArchMvc.Application.csproj.CopyComplete
 C:\Users\Daniel\Documents\Estudos\CSharp\curso_cleanArch\CleanArchMvc\CleanArchMvc.Application\obj\Debug\net5.0\CleanArchMvc.Application.dll
-C:\Users\Daniel\Documents\Estudos\CSharp\curso_cleanArch\CleanArchMvc\CleanArchMvc.Application\obj\Debug\net5.0\ref\CleanArchMvc.Application.dll
-C:\Users\Daniel\Documents\Estudos\CSharp\curso_cleanArch\CleanArchMvc\CleanArchMvc.Application\obj\Debug\net5.0\CleanArchMvc.Application.pdb
 C:\Users\Daniel\Documents\Estudos\CSharp\curso_cleanArch\CleanArchMvc\CleanArchMvc.Application\obj\Debug\net5.0\refint\CleanArchMvc.Application.dll
+C:\Users\Daniel\Documents\Estudos\CSharp\curso_cleanArch\CleanArchMvc\CleanArchMvc.Application\obj\Debug\net5.0\CleanArchMvc.Application.pdb
+C:\Users\Daniel\Documents\Estudos\CSharp\curso_cleanArch\CleanArchMvc\CleanArchMvc.Application\obj\Debug\net5.0\ref\CleanArchMvc.Application.dll
