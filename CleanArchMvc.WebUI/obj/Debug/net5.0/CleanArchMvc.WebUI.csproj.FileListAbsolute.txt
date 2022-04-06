@@ -393,3 +393,4 @@ C:\Users\Daniel\Documents\Estudos\CSharp\curso_cleanArch\CleanArchMvc\CleanArchM
 C:\Users\Daniel\Documents\Estudos\CSharp\curso_cleanArch\CleanArchMvc\CleanArchMvc.WebUI\obj\Debug\net5.0\CleanArchMvc.WebUI.pdb
 C:\Users\Daniel\Documents\Estudos\CSharp\curso_cleanArch\CleanArchMvc\CleanArchMvc.WebUI\obj\Debug\net5.0\CleanArchMvc.WebUI.genruntimeconfig.cache
 C:\Users\Daniel\Documents\Estudos\CSharp\curso_cleanArch\CleanArchMvc\CleanArchMvc.WebUI\obj\Debug\net5.0\ref\CleanArchMvc.WebUI.dll
+C:\Users\Daniel\Documents\Estudos\CSharp\curso_cleanArch\CleanArchMvc\CleanArchMvc.WebUI\obj\Debug\net5.0\Razor\Views\Products\Index.cshtml.g.cs
