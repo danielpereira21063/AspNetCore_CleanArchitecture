@@ -8,13 +8,13 @@ using System.Threading.Tasks;
 
 namespace CleanArchMvc.Application.Products.Handlers
 {
-    public class ProductUpdateCommandHandler : IRequestHandler<ProductUpdateCommand, Product>
+    public class ProductRemoveCommandHandler : IRequestHandler<ProductUpdateCommand, Product>
     {
         private readonly IProductRepository _productRepository;
 
-        public ProductUpdateCommandHandler(IProductRepository productRepository)
+        public ProductRemoveCommandHandler(IProductRepository productRepository)
         {
-            _productRepository = productRepository ?? throw new ArgumentNullException(nameof(productRepository));
+            _productRepository = productRepository;
         }
 
         public async Task<Product> Handle(ProductUpdateCommand request, CancellationToken cancellationToken)
@@ -27,9 +27,8 @@ namespace CleanArchMvc.Application.Products.Handlers
             }
             else
             {
-                product.Update(request.Name, request.Description, request.Price, request.Stock, request.Image, request.CategoryId);
-
-                return await _productRepository.UpdateAsync(product);
+                var result = await _productRepository.RemoveAsync(product);
+                return result;
             }
         }
     }

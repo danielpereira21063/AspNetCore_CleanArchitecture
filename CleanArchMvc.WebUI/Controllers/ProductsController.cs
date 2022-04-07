@@ -1,5 +1,4 @@
 ﻿using CleanArchMvc.Application.Interfaces;
-using CleanArchMvc.Application.Services;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 
