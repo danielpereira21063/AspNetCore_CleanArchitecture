@@ -64,18 +64,18 @@ namespace CleanArchMvc.Application.Services
             await _mediator.Send(productUpdateHandler);
         }
 
-        public async Task<ProductDTO> GetProductCategoryAsync(int? id)
-        {
-            var productByIdQuery = new GetProductByIdQuery(id.Value);
+        //public async Task<ProductDTO> GetProductCategoryAsync(int? id)
+        //{
+        //    var productByIdQuery = new GetProductByIdQuery(id.Value);
 
-            if (productByIdQuery == null)
-            {
-                return null;
-            }
+        //    if (productByIdQuery == null)
+        //    {
+        //        return null;
+        //    }
 
-            var result = await _mediator.Send(productByIdQuery);
+        //    var result = await _mediator.Send(productByIdQuery);
 
-            return _mapper.Map<ProductDTO>(productByIdQuery);
-        }
+        //    return _mapper.Map<ProductDTO>(productByIdQuery);
+        //}
     }
 }

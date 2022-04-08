@@ -396,3 +396,8 @@ C:\Users\Daniel\Documents\Estudos\CSharp\curso_cleanArch\CleanArchMvc\CleanArchM
 C:\Users\Daniel\Documents\Estudos\CSharp\curso_cleanArch\CleanArchMvc\CleanArchMvc.WebUI\obj\Debug\net5.0\Razor\Views\Products\Index.cshtml.g.cs
 C:\Users\Daniel\Documents\Estudos\CSharp\curso_cleanArch\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\MediatR.dll
 C:\Users\Daniel\Documents\Estudos\CSharp\curso_cleanArch\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Daniel\Documents\Estudos\CSharp\curso_cleanArch\CleanArchMvc\CleanArchMvc.WebUI\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Daniel\Documents\Estudos\CSharp\curso_cleanArch\CleanArchMvc\CleanArchMvc.WebUI\obj\Debug\net5.0\Razor\Views\Categories\Create.cshtml.g.cs
+C:\Users\Daniel\Documents\Estudos\CSharp\curso_cleanArch\CleanArchMvc\CleanArchMvc.WebUI\obj\Debug\net5.0\Razor\Views\Categories\Edit.cshtml.g.cs
+C:\Users\Daniel\Documents\Estudos\CSharp\curso_cleanArch\CleanArchMvc\CleanArchMvc.WebUI\obj\Debug\net5.0\Razor\Views\Categories\Delete.cshtml.g.cs
+C:\Users\Daniel\Documents\Estudos\CSharp\curso_cleanArch\CleanArchMvc\CleanArchMvc.WebUI\obj\Debug\net5.0\Razor\Views\Categories\Details.cshtml.g.cs
