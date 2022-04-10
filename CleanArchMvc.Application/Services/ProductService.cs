@@ -3,6 +3,7 @@ using CleanArchMvc.Application.DTOs;
 using CleanArchMvc.Application.Interfaces;
 using CleanArchMvc.Application.Products.Commands;
 using CleanArchMvc.Application.Products.Queries;
+using CleanArchMvc.Domain.Interfaces;
 using MediatR;
 using System;
 using System.Collections.Generic;
@@ -14,11 +15,13 @@ namespace CleanArchMvc.Application.Services
     {
         private readonly IMapper _mapper;
         private readonly IMediator _mediator;
+        private readonly IProductRepository _productRepository;
 
-        public ProductService(IMediator mediator, IMapper mapper)
+        public ProductService(IMediator mediator, IMapper mapper, IProductRepository productRepository)
         {
             _mediator = mediator ?? throw new ArgumentNullException(nameof(mediator));
             _mapper = mapper;
+            _productRepository = productRepository;
         }
         public async Task<IEnumerable<ProductDTO>> GetProductsAsync()
         {
@@ -49,13 +52,15 @@ namespace CleanArchMvc.Application.Services
 
         public async Task RemoveAsync(int? id)
         {
-            var productRemoveCommand = new ProductRemoveCommand(id.Value);
+            //var productRemoveCommand = new ProductRemoveCommand(id.Value);
 
-            if (productRemoveCommand == null)
-            {
-                throw new Exception("Entity could not be found.");
-            }
-            await _mediator.Send(productRemoveCommand);
+            //if (productRemoveCommand == null)
+            //{
+            //    throw new Exception("Entity could not be found.");
+            //}
+            //await _mediator.Send(productRemoveCommand);
+            var product = await _productRepository.GetByIdAsync(id.Value);
+            await _productRepository.RemoveAsync(product);
         }
 
         public async Task UpdateAsync(ProductDTO productDTO)
