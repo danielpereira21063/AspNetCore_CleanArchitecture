@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace CleanArchMvc.API.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("/api/[controller]")]
     [ApiController]
     public class CategoriesController : ControllerBase
     {

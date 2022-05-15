@@ -1,8 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace CleanArchMvc.WebUI.ViewModels
+namespace CleanArchMvc.API.Models
 {
-    public class RegisterViewModel
+    public class RegisterModel
     {
         [Required(ErrorMessage = "Email is required")]
         [EmailAddress(ErrorMessage = "Invalid format email")]
