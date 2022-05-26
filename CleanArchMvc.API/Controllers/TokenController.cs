@@ -1,7 +1,6 @@
-﻿using AutoMapper.Configuration;
-using CleanArchMvc.API.Models;
+﻿using CleanArchMvc.API.Models;
 using CleanArchMvc.Domain.Account;
-using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
 using System;
@@ -26,6 +25,7 @@ namespace CleanArchMvc.API.Controllers
             _configuration = configuration ?? throw new ArgumentNullException(nameof(configuration));
         }
 
+        [AllowAnonymous]
         [HttpPost("LoginUser")]
         public async Task<ActionResult<UserToken>> Login([FromBody] LoginModel userInfo)
         {
@@ -41,6 +41,7 @@ namespace CleanArchMvc.API.Controllers
 
         }
 
+        [Authorize]
         [HttpPost("CreateUser")]
         [ApiExplorerSettings(IgnoreApi = true)]
         public async Task<ActionResult> CreateUser([FromBody] LoginModel userInfo)
